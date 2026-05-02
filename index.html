@@ -1,1 +1,118 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdinxoProtege | Ciberseguridad</title>
+    <style>
+        :root {
+            --fondo: #0a0b10;
+            --primario: #00ff41; 
+            --texto: #e0e0e0;
+            --acento: #007bff;
+        }
+        body {
+            background-color: var(--fondo);
+            color: var(--texto);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 2px solid var(--primario);
+            padding: 30px 20px;
+            text-align: center;
+            background: rgba(0, 255, 65, 0.05);
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--primario);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(180deg, #0a0b10 0%, #16213e 100%);
+        }
+        .btn {
+            border: 1px solid var(--primario);
+            color: var(--primario);
+            padding: 12px 25px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: var(--primario);
+            color: var(--fondo);
+        }
+        .seccion { padding: 40px 20px; max-width: 800px; margin: auto; }
+        .grid { display: grid; gap: 20px; }
+        .tarjeta {
+            background: #1a1a2e;
+            border-left: 4px solid var(--acento);
+            padding: 20px;
+            border-radius: 0 10px 10px 0;
+        }
+        .tarjeta h3 { color: var(--primario); margin-top: 0; }
+        .badge {
+            background: var(--acento);
+            color: white;
+            padding: 5px 10px;
+            font-size: 0.8rem;
+            border-radius: 3px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 0.9rem;
+            border-top: 1px solid #333;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">EDINXOPROTEGE</div>
+        <p>Seguridad Digital • Educación • Resiliencia</p>
+    </header>
+
+    <section class="hero">
+        <h1>Defensa Proactiva</h1>
+        <p>Estudiante de Ciberseguridad dedicado a proteger la integridad digital de la comunidad.</p>
+        <a href="mailto:edinxon.layer7@protonmail.com" class="btn">Solicitar Asesoría</a>
+    </section>
+
+    <section class="seccion">
+        <h2>Formación y Proyectos</h2>
+        <div class="grid">
+            <!-- Sección ISC2 -->
+            <div class="tarjeta">
+                <span class="badge">En Progreso</span>
+                <h3>Certificación ISC2</h3>
+                <p>Preparándome para los estándares globales de seguridad de la información. Enfocado en control de accesos, seguridad de redes y operaciones de seguridad.</p>
+            </div>
+
+            <!-- Sección Router -->
+            <div class="tarjeta">
+                <span class="badge">Comunidad</span>
+                <h3>Defensa de Routers</h3>
+                <p>Proyecto dedicado a enseñar a las familias cómo asegurar sus redes domésticas contra accesos no autorizados y piratería digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Estás en un entorno seguro.</p>
+        <p>&copy; 2026 EdinxoProtege | Contacto: edinxon.layer7@protonmail.com</p>
+    </footer>
+</body>
+</html>
