@@ -1,5 +1,6 @@
 # EdinxoProtege 🛡️
-
+![Estado](https://img.shields.io/badge/Estado-Activo-brightgreen?style=for-the-badge&logo=github)
+![Seguridad](https://img.shields.io/badge/Ciberseguridad-Defensiva-blue?style=for-the-badge&logo=shield)
 ¡Bienvenido! Este es mi espacio dedicado a la **Ciberseguridad** y la protección de la integridad digital.
 
 ### 🚀 Sobre este proyecto
