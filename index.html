@@ -1,50 +1,17 @@
-<section id="sobre-mi" style="padding: 20px; background-color: #1a1a1a; border-left: 4px solid #00ff00; margin: 10px; border-radius: 5px;">
-    <h2 style="color: #00ff00;">👤 Acerca de EdinxoProtege</h2>
-    <p style="color: #e0e0e0; line-height: 1.6;">
-        Soy <strong>Edinxo</strong>, estudiante apasionado de Ciberseguridad y aspirante a la certificación <strong>ISC2</strong>. 
-    </p>
-    <p style="color: #e0e0e0; line-height: 1.6;">
-        Mi misión es proteger la integridad digital de mi comunidad. Creo firmemente que la seguridad no es solo para expertos, sino un derecho y un deber de todos. A través de este portal, comparto conocimientos sobre defensa de redes, protección de routers y buenas prácticas digitales para mantener a los piratas informáticos fuera de nuestros hogares.
-    </p>
-    <div style="margin-top: 15px; font-style: italic; color: #00ff00;">
-        "Transformando la vulnerabilidad en fortaleza digital."
-    </div>
-</section>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
- <!-- SEO y Etiquetas de Búsqueda -->
-<title>EdinxoProtege | Defensa Digital y Seguridad de Routers</title>
-<meta name="description" content="Aprende a proteger tu red doméstica y routers con EdinxoProtege. Consejos de ciberseguridad proactiva para la comunidad.">
-<meta name="keywords" content="Ciberseguridad, EdinxoProtege, Seguridad Router, ISC2, Protección Digital, Venezuela">
-<meta name="author" content="Edinxo">
-
-<!-- Esto es para que se vea bien cuando compartas el link por WhatsApp -->
-<meta property="og:title" content="EdinxoProtege | Tu Escudo Digital">
-<meta property="og:description" content="Guías rápidas para asegurar tu privacidad y protegerte de piratas informáticos.">
-<meta property="og:type" content="website">   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EdinxoProtege | Defensa Proactiva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdinxoProtege | Ciberseguridad</title>
     <style>
         :root {
-            --fondo: #0a0b10;
-            --primario: #00ff41; 
-            --texto: #e0e0e0;
- <section id="habilidades" style="padding: 20px; background-color: #0d0d0d; margin: 10px; border-radius: 5px; border: 1px solid #333;">
-    <h2 style="color: #00ff00; text-align: center;">🛠️ Habilidades Técnicas</h2>
-    
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 15px;">
-        <!-- Lo que ya dominas -->
-        <span style="background: #004400; color: #00ff00; padding: 8px 15px; border-radius: 20px; font-size: 0.9em; border: 1px solid #00ff00;">Seguridad de Routers</span>
-        <span style="background: #004400; color: #00ff00; padding: 8px 15px; border-radius: 20px; font-size: 0.9em; border: 1px solid #00ff00;">Criptografía (ISC2)</span>
-        <span style="background: #004400; color: #00ff00; padding: 8px 15px; border-radius: 20px; font-size: 0.9em; border: 1px solid #00ff00;">Defensa de Redes</span>
-        
-        <!-- En lo que estás trabajando -->
-        <span style="background: #332200; color: #ffcc00; padding: 8px 15px; border-radius: 20px; font-size: 0.9em; border: 1px solid #ffcc00;">Linux & Terminal (En progreso)</span>
-        <span style="background: #332200; color: #ffcc00; padding: 8px 15px; border-radius: 20px; font-size: 0.9em; border: 1px solid #ffcc00;">Pentesting Ético (Aprendiendo)</span>
-    </div>
-</section>           --acento: #007bff;
+            --fondo: #0d1117;
+            --tarjeta: #161b22;
+            --texto: #c9d1d9;
+            --verde: #00ff00;
+            --ambar: #ffcc00;
+            --azul: #58a6ff;
         }
         body {
             background-color: var(--fondo);
@@ -55,107 +22,98 @@
             line-height: 1.6;
         }
         header {
-            border-bottom: 2px solid var(--primario);
+            background-color: var(--tarjeta);
             padding: 30px 20px;
             text-align: center;
-            background: rgba(0, 255, 65, 0.05);
+            border-bottom: 2px solid var(--verde);
         }
-        .logo {
-            font-size: 1.8rem;
-            font-weight: bold;
-            color: var(--primario);
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
-        .hero {
-            padding: 60px 20px;
-            text-align: center;
-            background: linear-gradient(180deg, #0a0b10 0%, #16213e 100%);
-        }
-        .btn {
-            border: 1px solid var(--primario);
-            color: var(--primario);
-            padding: 12px 25px;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 20px;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        .btn:hover {
-            background: var(--primario);
-            color: var(--fondo);
-        }
-        .seccion { padding: 40px 20px; max-width: 800px; margin: auto; }
-        .grid { display: grid; gap: 20px; }
-        .tarjeta {
-            background: #1a1a2e;
-            border-left: 4px solid var(--acento);
+        .container {
+            max-width: 800px;
+            margin: auto;
             padding: 20px;
-            border-radius: 0 10px 10px 0;
         }
-        .tarjeta h3 { color: var(--primario); margin-top: 0; }
+        section {
+            background-color: var(--tarjeta);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid #30363d;
+        }
+        h1, h2, h3 { color: var(--verde); }
         .badge {
-            background: var(--acento);
-            color: white;
-            padding: 5px 10px;
-            font-size: 0.8rem;
-            border-radius: 3px;
             display: inline-block;
-            margin-bottom: 10px;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin: 5px;
         }
-        footer 
-        
-    <footer>
-   <p>&copy; 2026 EdinxoProtege | Desarrollado con mentalidad de Confianza Cero</p>
-</footer>
-        }
+        .badge-done { background: #004400; color: var(--verde); border: 1px solid var(--verde); }
+        .badge-progress { background: #332200; color: var(--ambar); border: 1px solid var(--ambar); }
+        li { margin-bottom: 10px; }
+        footer { text-align: center; padding: 20px; color: #8b949e; font-size: 0.9em; }
     </style>
 </head>
 <body>
-    <header>
-        <div class="logo">EDINXOPROTEGE</div>
-        <p>Seguridad Digital • Educación • Resiliencia</p>
-    </header>
 
-    <section class="hero">
-        <h1>Defensa Proactiva</h1>
-        <p>Estudiante de Ciberseguridad dedicado a proteger la integridad digital de la comunidad.</p>
-        <a href="mailto:edinxon.layer7@protonmail.com" class="btn">Solicitar Asesoría</a>
+<header>
+    <h1>EdinxoProtege 🛡️</h1>
+    <p>Educación y Defensa en Ciberseguridad</p>
+</header>
+
+<div class="container">
+
+    <!-- SOBRE EL PROYECTO -->
+    <section>
+        <h2>🚀 Sobre este proyecto</h2>
+        <p>Espacio dedicado a proteger la integridad digital de la comunidad. Este portal es parte de mi formación técnica en ciberseguridad.</p>
+        <p><em>“La seguridad es un proceso, no un producto.”</em></p>
     </section>
 
-    <section class="seccion">
-        <h2>Formación y Proyectos</h2>
-        <div class="grid">
-            <!-- Sección ISC2 -->
-            <div class="tarjeta">
-                <span class="badge">En Progreso</span>
-                <h3>Certificación ISC2</h3>
-                <p>Preparándome para los estándares globales de seguridad de la información. Enfocado en control de accesos, seguridad de redes y operaciones de seguridad.</p>
-            </div>
-
-            <!-- Sección Router -->
-            <div class="tarjeta">
-                <span class="badge">Comunidad</span>
-                <h3>Defensa de Routers</h3>
-                <p>Proyecto dedicado a enseñar a las familias cómo asegurar sus redes domésticas contra accesos no autorizados y piratería digital.</p>
-            </div>
-        </div>
+    <!-- GUÍA DE ROUTERS -->
+    <section>
+        <h2>🛠️ Blindaje de Routers</h2>
+        <ul>
+            <li><strong>Cambio de Credenciales:</strong> Nunca uses admin/admin.</li>
+            <li><strong>Desactivar WPS:</strong> Elimina una de las puertas traseras más comunes.</li>
+            <li><strong>Cifrado Fuerte:</strong> Configura WPA3 o WPA2-AES.</li>
+            <li><strong>Ocultar SSID:</strong> Una capa extra de privacidad.</li>
+            <li><strong>Filtrado MAC:</strong> Control estricto de dispositivos.</li>
+        </ul>
     </section>
 
-    <footer>
-        <p>Estás en un entorno seguro.</p>
-        <p>&copy; 2026 EdinxoProtege | Contacto: edinxon.layer7@protonmail.com</p>
-    </footer>
+    <!-- DICCIONARIO ISC2 -->
+    <section>
+        <h2>📚 Conceptos Clave (ISC2)</h2>
+        <h3>La Tríada CIA</h3>
+        <ul>
+            <li><strong>Confidencialidad:</strong> Solo acceso autorizado.</li>
+            <li><strong>Integridad:</strong> Datos sin alteraciones.</li>
+            <li><strong>Disponibilidad:</strong> Sistemas siempre listos.</li>
+        </ul>
+        <h3>Criptografía</h3>
+        <p><strong>Simétrica:</strong> Una llave (Rápida).<br>
+           <strong>Asimétrica:</strong> Llave Pública/Privada (Segura para Internet).</p>
+    </section>
+
+    <!-- ACERCA DE MI Y SKILLS -->
+    <section style="border-left: 5px solid var(--azul);">
+        <h2>👤 El Especialista</h2>
+        <p>Soy <strong>Edinxo</strong>, estudiante de Cybersecurity preparando la certificación <strong>ISC2</strong>.</p>
+        
+        <h3>Stack Técnico:</h3>
+        <span class="badge badge-done">Seguridad de Redes</span>
+        <span class="badge badge-done">Defensa de Routers</span>
+        <span class="badge badge-done">Criptografía</span>
+        <span class="badge badge-progress">Linux & Terminal (En progreso)</span>
+        <span class="badge badge-progress">Pentesting Ético (Aprendiendo)</span>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 EdinxoProtege | Formación Técnica Continua
+</footer>
+
 </body>
-</html>.
-<section style="padding: 20px; border: 1px solid #00ff00; margin: 10px; border-radius: 10px;">
-    <h2 style="color: #00ff00;">🛡️ Guía Rápida de Defensa</h2>
-    <p>Si tu router tiene la configuración de fábrica, estás en riesgo. Sigue estos pasos:</p>
-    <ul>
-        <li><strong>Paso 1:</strong> Cambia la clave 'Admin' del router.</li>
-        <li><strong>Paso 2:</strong> Usa cifrado WPA2 o WPA3.</li>
-        <li><strong>Paso 3:</strong> Desactiva el WPS en los ajustes.</li>
-    </ul>
-    <p><em>"La seguridad es un proceso, no un producto".</em></p>
-</section>
+</html>
